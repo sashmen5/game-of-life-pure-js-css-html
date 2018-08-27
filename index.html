@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Game of life</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'></script>
+</head>
+
+<body>
+    <center>
+        <div class="buttons-bar">
+            <button type="button" id="start" class="action-button shadow animate blue">Start</button>
+            <button type="button" id="stop" class="action-button shadow animate blue">Stop</button>
+            <button type="button" id="reset" class="action-button shadow animate blue">Reset</button>
+        </div>
+
+        <div class="game-container"></div>
+    </center>
+</body>
+<script src="controller/controller.js"></script>
+<script src="model/gamelogic.js"></script>
+<script src="model/cell.js"></script>
+<script src="model/board.js"></script>
+<script src="view/view.js"></script>
+<script src="app.js"></script>
+
+</html>
